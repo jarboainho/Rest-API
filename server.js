@@ -3,7 +3,7 @@ const  mongoose = require('mongoose')
 require('dotenv').config()
 const User = require ('./Model/User')
 const app = express()
-const mongoUrl = 'mongodb+srv://jarboainho:123456789@cluster0.ec6awpw.mongodb.net/test'
+const mongoUrl = 'mongodb+srv://jarboainho:asta4firoallah@cluster1.txdmm1x.mongodb.net/test'
 mongoose.connect( mongoUrl , (err)=>{
   err? console.log(err) : console.log('database is connected')
 
